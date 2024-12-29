@@ -1,0 +1,6 @@
+C:\Users\91950\Downloads\ngnix.pem = pem path
+C:\Users\91950\Downloads\ivl-frontend (1).zip= localpath
+ubuntu@15.207.19.98:/home/ubuntu= public ip with remote path
+
+
+scp -i "C:\Users\91950\Downloads\ngnix.pem" -r "C:\Users\91950\Downloads\ivl-frontend (1).zip" ubuntu@15.207.19.98:/home/ubuntu
